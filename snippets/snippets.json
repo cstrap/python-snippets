@@ -130,6 +130,10 @@
         "prefix": "lcie",
         "body": "[${1:value} if ${2:condition} else ${3:condition} for ${4:value} in ${5:variable}]$0"
     },
+    "List Comprehension If Filter": {
+        "prefix": "lci",
+        "body": "[${1:value} for ${2:value} in ${3:variable} if ${4:condition}$0]"
+    }, 
     "Dictionary Comprehension": {
         "prefix": "dc",
         "body": "{${1:key}: ${2:value} for ${3:key}, ${4:value} in ${5:variable}}$0"
