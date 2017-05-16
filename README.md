@@ -10,8 +10,6 @@ Snippets for Python
 
 Last changes, see changelog for the complete reference.
 
-### 0.0.1
+## 0.0.2
 
-- Initial release
-- Porting Atom [language-python](https://github.com/atom/language-python) with [atomizr](https://www.npmjs.com/package/node-atomizr)  
-- Added some snippets ported from PyCharm
+- public repo, feel free to contribute! :-)
