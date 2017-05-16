@@ -11,6 +11,10 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cstrap/python-snippets.git"
+    },
     "contributes": {
         "snippets": [
             {
@@ -18,9 +22,5 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cstrap/python-snippets.git"
     }
 }
