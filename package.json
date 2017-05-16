@@ -1,0 +1,21 @@
+{
+    "name": "python-snippets",
+    "displayName": "python-snippets",
+    "description": "Python snippets",
+    "version": "0.0.1",
+    "publisher": "cstrap",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
