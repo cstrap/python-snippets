@@ -138,6 +138,10 @@
         "prefix": "dc",
         "body": "{${1:key}: ${2:value} for ${3:key}, ${4:value} in ${5:variable}}$0"
     },
+    "Dictionary Comprehension If filter": {
+        "prefix": "dc",
+        "body": "{${1:key}: ${2:value} for ${3:key}, ${4:value} in ${5:variable} if ${6:condition}}$0"
+    },
     "Set Comprehension": {
         "prefix": "sc",
         "body": "{${1:value} for ${2:value} in ${3:variable}}$0"
