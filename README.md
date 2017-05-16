@@ -12,4 +12,4 @@ Last changes, see changelog for the complete reference.
 
 ## 0.0.2
 
-- public repo at [GitHub](https://github.com/cstrap/python-snippets), feel free to contribute! :-)
+- public repo on [GitHub](https://github.com/cstrap/python-snippets), feel free to contribute! :-)
