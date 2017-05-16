@@ -138,6 +138,14 @@
         "prefix": "dc",
         "body": "{${1:key}: ${2:value} for ${3:key}, ${4:value} in ${5:variable}}$0"
     },
+    "Set Comprehension": {
+        "prefix": "sc",
+        "body": "{${1:value} for ${2:value} in ${3:variable}}$0"
+    },
+    "Set Comprehension If Filter": {
+        "prefix": "sci",
+        "body": "{${1:value} for ${2:value} in ${3:variable} if ${4:condition}}$0"
+    },
     "Gerator Comprehension": {
         "prefix": "gc",
         "body": "(${1:key} for ${2:value} in ${3:iterable})"
