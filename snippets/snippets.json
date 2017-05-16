@@ -148,8 +148,12 @@
     },
     "Gerator Comprehension": {
         "prefix": "gc",
-        "body": "(${1:key} for ${2:value} in ${3:iterable})"
+        "body": "(${1:key} for ${2:value} in ${3:iterable})$0"
     },
+    "Gerator Comprehension If Filter": {
+        "prefix": "gci",
+        "body": "(${1:key} for ${2:value} in ${3:iterable} if ${4:condition})$0"
+    }, 
     "PDB set trace": {
         "prefix": "pdb",
         "body": "import pdb; pdb.set_trace()$0"
