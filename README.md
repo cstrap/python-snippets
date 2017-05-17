@@ -6,10 +6,13 @@ Python snippets collections, ported from Atom, PyCharm, TextMate, SublimeText an
 
 Snippets for Python
 
+Public repo on [GitHub](https://github.com/cstrap/python-snippets), feel free to contribute! :-)
+
 ## Release Notes
 
-Last changes, see changelog for the complete reference.
+## 0.0.3
 
-## 0.0.2
+- Initial support for Tkinter, ported from Atom snippets found on [GitHub](https://github.com/adiultra/python-snippets) 
+- Splitting snippets into category files
 
-- public repo on [GitHub](https://github.com/cstrap/python-snippets), feel free to contribute! :-)
+See [changelog](CHANGELOG.md) for all changes and releases.
