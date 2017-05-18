@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.0.4]
+- Added abbreviations list with description on README file
+
 ## [0.0.3]
 - Initial support for Tkinter, ported from Atom snippets found on [GitHub](https://github.com/adiultra/python-snippets) 
 - Splitting snippets into category files

@@ -3,7 +3,7 @@
         "prefix": "imtk",
         "body": "import Tkinter as tk$0"
     },
-    "Root Configuration": {
+    "Root configuration": {
         "prefix": "config",
         "body": "config(menu=$1)$0"
     },
@@ -31,11 +31,11 @@
         "prefix": "sticky",
         "body": "sticky=tk.$0"
     },
-    "Check Button": {
+    "Check button": {
         "prefix": "checkbutton",
         "body": "tk.Checkbutton(${1:root}, text=\"$2\")$0"
     },
-    "Main Loop": {
+    "Main loop": {
         "prefix": "mainloop",
         "body": "mainloop()$0"
     },
@@ -55,15 +55,15 @@
         "prefix": "menu",
         "body": "tk.menu(${1:root})$0"
     },
-    "Add Cascade": {
+    "Add cascade": {
         "prefix": "add cascade",
         "body": "add_cascade(label=\"$1\", menu=$2)$0"
     },
-    "Add Command": {
+    "Add command": {
         "prefix": "add command",
         "body": "add_command(label=\"$1\", command=$2)$0"
     },
-    "Add Seperator": {
+    "Add seperator": {
         "prefix": "add seperator",
         "body": "add_separator()$0"
     }
