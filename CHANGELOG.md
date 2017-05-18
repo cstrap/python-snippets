@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.0.5]
+- Fix duplicate snippets, adding some doc
+
 ## [0.0.4]
 - Added abbreviations list with description on README file
 

@@ -4,41 +4,52 @@
         "body": "#!/usr/bin/env python\n$0"
     },
     "#!/usr/bin/env python3": {
-        "prefix": "env",
+        "prefix": "env3",
         "body": "#!/usr/bin/env python3\n$0"
     },
-    "# coding=utf-8": {
+    "# -*- coding=utf-8 -*-": {
         "prefix": "enc",
         "body": "# -*- coding=utf-8 -*-\n$0"
     },
-    "From future import ...": {
+    "# coding=utf-8": {
+        "prefix": "enco",
+        "body": "# coding=utf-8\n$0"
+    },
+    "from future import ...": {
         "prefix": "fenc",
         "body": [
             "# -*- coding: utf-8 -*-",
             "from __future__ import absolute_import, division, print_function, unicode_literals"
         ]
     },
-    "Import": {
+    "from future import ... v1": {
+        "prefix": "fenco",
+        "body": [
+            "# coding: utf-8",
+            "from __future__ import absolute_import, division, print_function, unicode_literals"
+        ]
+    },
+    "import": {
         "prefix": "im",
         "body": "import ${1:package/module}$0"
     },
-    "From/Import": {
+    "from ... import ...": {
         "prefix": "fim",
         "body": "from ${1:package/module} import ${2:names}$0"
     },
-    "New Class": {
+    "New class": {
         "prefix": "class",
         "body": "class ${1:ClassName}(${2:object}):\n\t\"\"\"${3:docstring for $1.}\"\"\"\n\tdef __init__(self, ${4:arg}):\n\t\t${5:super($1, self).__init__()}\n\t\tself.arg = arg\n\t\t$0"
     },
-    "New Method": {
+    "New method": {
         "prefix": "defs",
         "body": "def ${1:mname}(self, ${2:arg}):\n\t${3:pass}$0"
     },
-    "New Function": {
+    "New function": {
         "prefix": "def",
         "body": "def ${1:fname}(${2:arg}):\n\t${3:pass}$0"
     },
-    "New Property": {
+    "New froperty": {
         "prefix": "property",
         "body": "def ${1:foo}():\n    doc = \"${2:The $1 property.}\"\n    def fget(self):\n        ${3:return self._$1}\n    def fset(self, value):\n        ${4:self._$1 = value}\n    def fdel(self):\n        ${5:del self._$1}\n    return locals()\n$1 = property(**$1())$0"
     },
@@ -54,21 +65,21 @@
         "prefix": "while",
         "body": "while ${1:condition}:\n\t${2:pass}$0"
     },
-    "Try/Except/Else/Finally": {
+    "try:except:": {
+        "prefix": "try",
+        "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}$0"
+    },
+    "try:except:else:finally": {
         "prefix": "tryef",
         "body": "try:\n\t${1:pass}\nexcept${2: ${3:Exception} as ${4:e}}:\n\t${5:raise}\nelse:\n\t${6:pass}\nfinally:\n\t${7:pass}$0"
     },
-    "Try/Except/Else": {
+    "try:except:else": {
         "prefix": "trye",
         "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}\nelse:\n\t${5:pass}$0"
     },
-    "Try/Except/Finally": {
+    "try:except:finally": {
         "prefix": "tryf",
         "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}\nfinally:\n\t${5:pass}$0"
-    },
-    "Try/Except": {
-        "prefix": "try",
-        "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}$0"
     },
     "self": {
         "prefix": ".",
@@ -78,8 +89,8 @@
         "prefix": "__",
         "body": "__${1:init}__$0"
     },
-    "if __name__ == '__main__'": {
+    "if __name__ == \"__main__\"": {
         "prefix": "ifmain",
-        "body": "if __name__ == '__main__':\n\t${1:main()}$0"
+        "body": "if __name__ == \"__main__\":\n\t${1:main()}$0"
     }
 }

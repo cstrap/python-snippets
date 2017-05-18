@@ -56,15 +56,15 @@
         "body": "tk.menu(${1:root})$0"
     },
     "Add cascade": {
-        "prefix": "add cascade",
+        "prefix": "addcascade",
         "body": "add_cascade(label=\"$1\", menu=$2)$0"
     },
     "Add command": {
-        "prefix": "add command",
+        "prefix": "addcommand",
         "body": "add_command(label=\"$1\", command=$2)$0"
     },
     "Add seperator": {
-        "prefix": "add seperator",
+        "prefix": "addseperator",
         "body": "add_separator()$0"
     }
 }

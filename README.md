@@ -12,28 +12,30 @@ Thanks!
 
 ### Base snippets
 
-| Abbreviation | Description               |
-|--------------|---------------------------|
-| env          | #!/usr/bin/env python     |
-| env          | #!/usr/bin/env python3    |
-| enc          | # coding=utf-8            |
-| fenc         | From future import ...    |
-| im           | Import                    |
-| fim          | From/Import               |
-| class        | New Class                 |
-| defs         | New Method                |
-| def          | New Function              |
-| property     | New Property              |
-| if           | if                        |
-| for          | for                       |
-| while        | while                     |
-| tryef        | Try/Except/Else/Finally   |
-| trye         | Try/Except/Else           |
-| tryf         | Try/Except/Finally        |
-| try          | Try/Except                |
-| .            | self                      |
-| __           | __magic__                 |
-| ifmain       | if __name__ == '__main__' |
+| Abbreviation | Description                       |
+|--------------|-----------------------------------|
+| env          | #!/usr/bin/env python             |
+| env3         | #!/usr/bin/env python3            |
+| enc          | # -*- coding=utf-8 -*-            |
+| enco         | # coding=utf-8                    |
+| fenc         | from future import ...            |
+| fenco        | from future import ... (no `-*-`) |
+| im           | import                            |
+| fim          | from ... import ...               |
+| class        | New class                         |
+| defs         | New method                        |
+| def          | New function                      |
+| property     | New property                      |
+| if           | if                                |
+| for          | for                               |
+| while        | while                             |
+| try          | try:except:                       |
+| tryef        | try:except:else:finally:          |
+| trye         | try:except:else:                  |
+| tryf         | try:except:finally:               |
+| .            | self                              |
+| __           | __magic__                         |
+| ifmain       | if __name__ == "__main__"         |
 
 ### Comprehensions
 
@@ -94,13 +96,13 @@ Thanks!
 | side          | Side               |
 | bind          | Bind               |
 | menu          | Menu               |
-| add cascade   | Add cascade        |
-| add command   | Add command        |
-| add seperator | Add seperator      |
+| addcascade    | Add cascade        |
+| addcommand    | Add command        |
+| addseperator  | Add seperator      |
 
 ## Release Notes
 
-## 0.0.4
-- Added abbreviations list with description on README file
+## 0.0.5
+- Fix duplicate snippets, adding some doc
 
 See [changelog](CHANGELOG.md) for all changes and releases.
