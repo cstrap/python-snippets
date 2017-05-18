@@ -82,7 +82,8 @@ Thanks!
 
 | Abbreviation  | Description        |
 |---------------|--------------------|
-| imtk          | Import Tkinter     |
+| imtk          | Import Tkinter py2 |
+| imtk3         | Import tkinter py3 |
 | config        | Root configuration |
 | button        | Button             |
 | label         | Label              |

@@ -3,6 +3,10 @@
         "prefix": "imtk",
         "body": "import Tkinter as tk$0"
     },
+    "Import tkinter": {
+        "prefix": "imtk3",
+        "body": "import tkinter as tk$0"
+    },
     "Root configuration": {
         "prefix": "config",
         "body": "config(menu=$1)$0"
