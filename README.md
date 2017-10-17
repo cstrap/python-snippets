@@ -48,8 +48,8 @@ Thanks!
 | dc           | Dictionary comprehension if filter |
 | sc           | Set comprehension                  |
 | sci          | Set Comprehension if filter        |
-| gc           | Gerator comprehension              |
-| gci          | Gerator comprehension if filter    |
+| gc           | Generator comprehension              |
+| gci          | Generator comprehension if filter    |
 
 ### Unittest
 
