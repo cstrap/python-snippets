@@ -9,7 +9,7 @@
     },
     "Assert raises": {
         "prefix": "asr",
-        "body": "self.assertRaises(${1:exception}, ${2:callable})$0"
+        "body": "self.assertRaises(${1:exception}, ${2:callable}, ${3:args})$0"
     },
     "Assert True": {
         "prefix": "ast",
