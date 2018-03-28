@@ -45,11 +45,11 @@ Thanks!
 | lcie         | List comprehension if else         |
 | lci          | List comprehension if filter       |
 | dc           | Dictionary comprehension           |
-| dc           | Dictionary comprehension if filter |
+| dci          | Dictionary comprehension if filter |
 | sc           | Set comprehension                  |
 | sci          | Set Comprehension if filter        |
-| gc           | Generator comprehension              |
-| gci          | Generator comprehension if filter    |
+| gc           | Generator comprehension            |
+| gci          | Generator comprehension if filter  |
 
 ### Unittest
 
