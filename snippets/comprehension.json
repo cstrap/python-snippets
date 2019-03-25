@@ -27,11 +27,11 @@
         "prefix": "sci",
         "body": "{${1:value} for ${2:value} in ${3:iterable} if ${4:condition}}$0"
     },
-    "Gerator comprehension": {
+    "Generator comprehension": {
         "prefix": "gc",
         "body": "(${1:key} for ${2:value} in ${3:iterable})$0"
     },
-    "Gerator comprehension if filter": {
+    "Generator comprehension if filter": {
         "prefix": "gci",
         "body": "(${1:key} for ${2:value} in ${3:iterable} if ${4:condition})$0"
     }
