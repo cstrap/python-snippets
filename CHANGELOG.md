@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.0.7]
+- Merge PR #7
+  
 ## [0.0.6]
 - Merge PR #1 #3 #5 fix typo, new snippets added
 
