@@ -17,7 +17,7 @@
     "# coding=utf-8": {
         "prefix": "enco",
         "body": "# coding=utf-8\n$0",
-        "description" : "set default python3 encoding specification to utf-8, by default this is the encoding for python3.x as it is mentioned in pep-3120."
+        "description" : "Set default python3 encoding specification to utf-8, by default this is the encoding for python3.x as it is mentioned in pep-3120."
     },
     "from future import ...": {
         "prefix": "fenc",
@@ -59,6 +59,11 @@
         "prefix": "def",
         "body": "def ${1:fname}(${2:arg}):\n\t${3:pass}$0",
         "description" : "Code snippet for function definition."
+    },
+    "New property": {
+        "prefix": "property",
+        "body": "@property\ndef ${1:foo}(self):\n    \"\"\"${2:The $1 property.}\"\"\"\n    ${3:return self._$1}\n@${4:$1}.setter\ndef ${5:$1}(self, value):\n    ${6:self._$1} = value",
+        "description": "New property: get and set via decorator"
     },
     "New froperty": {
         "prefix": "property",
@@ -103,7 +108,7 @@
     "self": {
         "prefix": ".",
         "body": "self.$0",
-        "description" : "shortend snippet to reference the self property in an object."
+        "description" : "Shortend snippet to reference the self property in an object."
     },
     "__magic__": {
         "prefix": "__",
