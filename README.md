@@ -1,4 +1,4 @@
-# Python snippets 
+# Python snippets
 
 Python snippets collections.
 
@@ -25,6 +25,7 @@ Thanks!
 | class        | New class                         |
 | defs         | New method                        |
 | def          | New function                      |
+| adef         | Async function                    |
 | property     | New property                      |
 | if           | if                                |
 | for          | for                               |
@@ -102,8 +103,5 @@ Thanks!
 | addseperator  | Add seperator      |
 
 ## Release Notes
-
-## 0.0.5
-- Fix duplicate snippets, adding some doc
 
 See [changelog](CHANGELOG.md) for all changes and releases.

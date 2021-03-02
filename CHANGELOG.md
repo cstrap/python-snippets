@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.0.9]
+- Merge PR #11
+
 ## [0.0.8]
 - Merge PR #9, #10
 - Add "New property", issue #2
