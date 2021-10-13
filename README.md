@@ -27,6 +27,7 @@ Thanks!
 | def          | New function                      |
 | adef         | Async function                    |
 | property     | New property                      |
+| enum         | New Enum                          |
 | if           | if                                |
 | for          | for                               |
 | while        | while                             |
