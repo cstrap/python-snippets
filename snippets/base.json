@@ -84,8 +84,9 @@
             "\t${3:FIRST_ENUM} = \"some_value\"",
             "\t${4:SECOND_ENUM} = \"some_other_value\"",
             "\t$0"
-        ]
-    }
+        ],
+        "description": "Code snippet for enum definition."
+    },
     "if": {
         "prefix": "if",
         "body": "if ${1:condition}:\n\t${2:pass}$0",
