@@ -111,7 +111,7 @@
         "description" : "Code Snippet for a try/except/finally."
     },
     "self": {
-        "prefix": ".",
+        "prefix": "..",
         "body": "self.$0",
         "description" : "Shortend snippet to reference the self property in an object."
     },
