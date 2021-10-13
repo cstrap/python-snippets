@@ -53,7 +53,7 @@
     "New dataclass": {
         "prefix": "classd",
         "body": [
-            "from dataclasses import dataclass\n",
+            "from dataclasses import dataclass\n\n",
             "@dataclass",
             "class ${1:ClassName}(${2:object}):",
             "\t\"\"\"${3:Docstring for $1.}\"\"\"",
