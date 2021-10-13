@@ -23,7 +23,7 @@ Thanks!
 | im           | import                            |
 | fim          | from ... import ...               |
 | class        | New class                         |
-| classd       | New dataclass                         |
+| classd       | New dataclass                     |
 | defs         | New method                        |
 | def          | New function                      |
 | adef         | Async function                    |
