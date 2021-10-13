@@ -47,7 +47,7 @@
     },
     "New class": {
         "prefix": "class",
-        "body":[
+        "body": [
             "class ${1:ClassName}(${2:object}):",
             "\t\"\"\"${3:docstring for $1.}\"\"\"",
             "\tdef __init__(self, ${4:arg}):",
