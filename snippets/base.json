@@ -51,7 +51,8 @@
             "class ${1:ClassName}(${2:object}):",
             "\t\"\"\"${3:docstring for $1.}\"\"\"",
             "\tdef __init__(self, ${4:arg}):",
-            "\t\t${5:super($1, self).__init__()}\n\t\tself.$4 = $4",
+            "\t\t${5:super($1, self).__init__()}",
+            "\t\tself.$4 = $4",
             "\t\t$0"
         ],
         "description" : "Code snippet for a class definition."
