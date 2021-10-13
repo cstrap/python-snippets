@@ -23,10 +23,12 @@ Thanks!
 | im           | import                            |
 | fim          | from ... import ...               |
 | class        | New class                         |
+| classd       | New dataclass                     |
 | defs         | New method                        |
 | def          | New function                      |
 | adef         | Async function                    |
 | property     | New property                      |
+| enum         | New Enum                          |
 | if           | if                                |
 | for          | for                               |
 | while        | while                             |

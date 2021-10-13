@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.1.0]
+
+- Merge PRs #15, #16, #17
+
 ## [0.0.9]
 - Merge PR #11
 
