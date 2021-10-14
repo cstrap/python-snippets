@@ -36,7 +36,7 @@ Thanks!
 | tryef        | try:except:else:finally:          |
 | trye         | try:except:else:                  |
 | tryf         | try:except:finally:               |
-| .            | self                              |
+| s            | self                              |
 | __           | __magic__                         |
 | ifmain       | if __name__ == "__main__"         |
 
