@@ -123,7 +123,7 @@
     },
     "dowhile": {
         "prefix": "dowhile",
-        "body": "do = True \nwhile do or ${2:condition}:\n\t${1:body}\n\tdo = False$0",
+        "body": "do = True \nwhile do or ${2:condition}:\n\tdo = False\n\t${1:body}$0",
         "description" : "Code snippet to create a do-while loop structure."
     },
     "try:except:": {
