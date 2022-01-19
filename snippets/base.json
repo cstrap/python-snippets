@@ -121,6 +121,11 @@
         "body": "while ${1:condition}:\n\t${2:pass}$0",
         "description" : "Code snippet to create a while loop structure."
     },
+    "dowhile": {
+        "prefix": "dowhile",
+        "body": "do = True \nwhile do or ${1:condition}:\n\t{2:body}\n\tdo = False$0",
+        "description" : "Code snippet to create a do-while loop structure."
+    },
     "try:except:": {
         "prefix": "try",
         "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}$0",
