@@ -107,3 +107,7 @@ Thanks!
 ## Release Notes
 
 See [changelog](CHANGELOG.md) for all changes and releases.
+
+## Troubleshooting
+
+If you experience problems with the auto-formatting of certain snippets, make sure you have the option `editor.tabCompletion` set on `onlySnippets` or `on`.
