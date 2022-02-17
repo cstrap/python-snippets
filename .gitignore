@@ -1,3 +1,4 @@
 .vscode/
 vsc-*
-.DS_Store
+.DS_Store/
+flask-snippets-*
