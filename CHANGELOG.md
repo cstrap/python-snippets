@@ -2,6 +2,10 @@
 
 All notable changes to the "python-snippets" extension will be documented in this file.
 
+## [0.1.2] 2022-02-17
+
+- Merge PR #18, #19
+
 ## [0.1.1] 2021-10-14
 
 - Merge PR #14
