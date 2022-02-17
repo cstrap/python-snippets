@@ -26,11 +26,13 @@ Thanks!
 | classd       | New dataclass                     |
 | defs         | New method                        |
 | def          | New function                      |
+| dowhile      | Do while structure                |
 | adef         | Async function                    |
 | property     | New property                      |
 | enum         | New Enum                          |
 | if           | if                                |
 | for          | for                               |
+| lambda       | lambda expression                 |
 | while        | while                             |
 | try          | try:except:                       |
 | tryef        | try:except:else:finally:          |
