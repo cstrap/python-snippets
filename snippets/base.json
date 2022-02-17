@@ -121,6 +121,11 @@
         "body": "while ${1:condition}:\n\t${2:pass}$0",
         "description" : "Code snippet to create a while loop structure."
     },
+    "dowhile": {
+        "prefix": "dowhile",
+        "body": "do = True\nwhile do or ${2:condition}:\n\tdo = False\n\t${1:body}$0",
+        "description" : "Code snippet to create a do-while loop structure."
+    },
     "try:except:": {
         "prefix": "try",
         "body": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:raise $3}$0",
@@ -155,5 +160,10 @@
         "prefix": "ifmain",
         "body": "if __name__ == \"__main__\":\n\t${1:main()}$0",
         "description" : "Create implicitly all the code at the top level using the __name__ special variable."
+    },
+    "lambda": {
+        "prefix": "lam",
+        "body": "lambda ${1:args}: ${2:expr}",
+        "description": "Create template for lambda function"
     }
 }
