@@ -2,7 +2,10 @@
 
 Python snippets collections.
 
-Initially ported from PyCharm, TextMate, SublimeText and other editors/IDEs.
+Install:
+ - Open vscode Extensions panel (`Ctrl-Shift-X`) >> search for `python-snippets` by _cstrap_ >> install.
+ - Or: visit https://marketplace.visualstudio.com/items?itemName=cstrap.python-snippets
+
 
 If you'd like to contribute, feel free to [submit a pull request on github](https://github.com/cstrap/python-snippets)
 
@@ -112,4 +115,5 @@ See [changelog](CHANGELOG.md) for all changes and releases.
 
 ## Troubleshooting
 
+Ensure the language of the file being edited is to python (`Ctrl-K,M`).
 If you experience problems with the auto-formatting of certain snippets, make sure you have the option `editor.tabCompletion` set on `onlySnippets` or `on`.
