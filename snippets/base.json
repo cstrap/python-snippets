@@ -52,8 +52,7 @@
             "\t\"\"\"${3:docstring for $1.}\"\"\"",
             "\tdef __init__(self, ${4:arg}):",
             "\t\t${5:super($1, self).__init__()}",
-            "\t${4/([^,=]+)(?:=[^,]+)?(,\\s*|)/\tself.$1 = $1${2:+\n\t}/g}",
-            "\n\t$0"
+            "\t\tself.$4 = $4"
         ],
         "description" : "Code snippet for a class definition."
     },
