@@ -84,6 +84,18 @@
         "body": "async def ${1:fname}(${2:arg}):\n\t${3:pass}$0",
         "description" : "Code snippet for async function definition."
     },
+    "New verbose function": {
+        "prefix": "defv",
+        "body": [
+			"def ${1:fname}(${2:arg: type}) -> ${3:type}:",
+			"\t'''\n\t${4:Function definition.}\n",
+			"\t:param ${5:arg: first param}",
+			"\t:returns: ${7:return}\n\t'''\n",
+			"\t${10:return ${3:type}}",
+			"\n$0"
+		],
+        "description" : "Code snippet for verbose function definition."
+    },
     "New property": {
         "prefix": "property",
         "body": "@property\ndef ${1:foo}(self):\n    \"\"\"${2:The $1 property.}\"\"\"\n    ${3:return self._$1}\n@${4:$1}.setter\ndef ${5:$1}(self, value):\n    ${6:self._$1} = value",
