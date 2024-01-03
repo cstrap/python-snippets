@@ -39,8 +39,8 @@ Thanks!
 | trye         | try:except:else:                  |
 | tryf         | try:except:finally:               |
 | s            | self                              |
-| __           | __magic__                         |
-| ifmain       | if __name__ == "__main__"         |
+| __           | \_\_magic__                       |
+| ifmain       | if \_\_name__ == "\_\_main__"     |
 
 ### Comprehensions
 
